@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{6D4BA7B0-B0DB-45B4-B99E-7765441B39FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoClasse", "CriandoClasse\CriandoClasse.csproj", "{1C6E73C9-56A0-4CAA-B1A8-4743C35553A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6D4BA7B0-B0DB-45B4-B99E-7765441B39FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D4BA7B0-B0DB-45B4-B99E-7765441B39FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D4BA7B0-B0DB-45B4-B99E-7765441B39FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6E73C9-56A0-4CAA-B1A8-4743C35553A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6E73C9-56A0-4CAA-B1A8-4743C35553A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6E73C9-56A0-4CAA-B1A8-4743C35553A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6E73C9-56A0-4CAA-B1A8-4743C35553A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
