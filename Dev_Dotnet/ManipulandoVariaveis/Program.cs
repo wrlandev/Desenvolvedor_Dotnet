@@ -1,6 +1,4 @@
-﻿using System.Xml;
-
-string apresentacao = "Olá seja bem vindo!";
+﻿string apresentacao = "Olá seja bem vindo!";
 Console.WriteLine(apresentacao);
 
 int credito = 1;
