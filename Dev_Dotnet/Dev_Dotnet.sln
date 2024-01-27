@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{6D4BA7B0-B0DB-45B4-B99E-7765441B39FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{6D4BA7B0-B0DB-45B4-B99E-7765441B39FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoClasse", "CriandoClasse\CriandoClasse.csproj", "{1C6E73C9-56A0-4CAA-B1A8-4743C35553A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriandoClasse", "CriandoClasse\CriandoClasse.csproj", "{1C6E73C9-56A0-4CAA-B1A8-4743C35553A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManipulandoVariaveis", "ManipulandoVariaveis\ManipulandoVariaveis.csproj", "{AB09935D-1053-49A6-A479-9B57C0E8C546}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManipulandoVariaveis", "ManipulandoVariaveis\ManipulandoVariaveis.csproj", "{AB09935D-1053-49A6-A479-9B57C0E8C546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{CEAB8403-F611-4862-987D-157333C39828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{CEAB8403-F611-4862-987D-157333C39828}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atribuicao", "Atribuicao\Atribuicao.csproj", "{2DAE41EE-6B92-4C00-9722-695C39A85311}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atribuicao", "Atribuicao\Atribuicao.csproj", "{2DAE41EE-6B92-4C00-9722-695C39A85311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertendoTipos", "ConvertendoTipos\ConvertendoTipos.csproj", "{80CD7F4F-CAA9-46EA-9D0D-242C5F7F5ACB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertendoTipos", "ConvertendoTipos\ConvertendoTipos.csproj", "{80CD7F4F-CAA9-46EA-9D0D-242C5F7F5ACB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdemDosOperadores", "OrdemDosOperadores\OrdemDosOperadores.csproj", "{B90C6FE9-F1A2-4044-BEA9-53B441A89479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdemDosOperadores", "OrdemDosOperadores\OrdemDosOperadores.csproj", "{B90C6FE9-F1A2-4044-BEA9-53B441A89479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condicionais", "Condicionais\Condicionais.csproj", "{BA386754-5C5F-4915-9EB6-5B12AF4137B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Condicionais", "Condicionais\Condicionais.csproj", "{BA386754-5C5F-4915-9EB6-5B12AF4137B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresLogicos", "OperadoresLogicos\OperadoresLogicos.csproj", "{A31DE5CA-094C-4BB7-991F-0E58313FD3C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresLogicos", "OperadoresLogicos\OperadoresLogicos.csproj", "{A31DE5CA-094C-4BB7-991F-0E58313FD3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAritmeticos", "OperadoresAritmeticos\OperadoresAritmeticos.csproj", "{952942E7-9207-4FB8-A705-8261443850BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{A31DE5CA-094C-4BB7-991F-0E58313FD3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A31DE5CA-094C-4BB7-991F-0E58313FD3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A31DE5CA-094C-4BB7-991F-0E58313FD3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952942E7-9207-4FB8-A705-8261443850BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952942E7-9207-4FB8-A705-8261443850BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952942E7-9207-4FB8-A705-8261443850BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952942E7-9207-4FB8-A705-8261443850BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
