@@ -21,19 +21,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Condicionais", "Condicionai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresLogicos", "OperadoresLogicos\OperadoresLogicos.csproj", "{A31DE5CA-094C-4BB7-991F-0E58313FD3C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAritmeticos", "OperadoresAritmeticos\OperadoresAritmeticos.csproj", "{952942E7-9207-4FB8-A705-8261443850BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresAritmeticos", "OperadoresAritmeticos\OperadoresAritmeticos.csproj", "{952942E7-9207-4FB8-A705-8261443850BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturasDeRepeticao", "EstruturasDeRepeticao\EstruturasDeRepeticao.csproj", "{9D56D48B-D121-48B9-893C-B615B6C5E79D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturasDeRepeticao", "EstruturasDeRepeticao\EstruturasDeRepeticao.csproj", "{9D56D48B-D121-48B9-893C-B615B6C5E79D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuInterativo", "MenuInterativo\MenuInterativo.csproj", "{4AD9EE6B-5F3E-4B60-8035-4C8FFF3ECD61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuInterativo", "MenuInterativo\MenuInterativo.csproj", "{4AD9EE6B-5F3E-4B60-8035-4C8FFF3ECD61}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fundamentos .NET", "Fundamentos .NET", "{F3EF9940-07CB-4EB1-8C0C-E40D3A100E62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDeInteiros", "ArrayDeInteiros\ArrayDeInteiros.csproj", "{F1CF6FB0-E2CE-4DD2-B1DB-EEEE69866ACB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayDeInteiros", "ArrayDeInteiros\ArrayDeInteiros.csproj", "{F1CF6FB0-E2CE-4DD2-B1DB-EEEE69866ACB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{D92D48B9-4F98-4A62-AD1B-010FDEE57CCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listas", "Listas\Listas.csproj", "{D92D48B9-4F98-4A62-AD1B-010FDEE57CCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estacionamento", "Estacionamento\Estacionamento.csproj", "{97C233B9-9139-438A-8B1E-B4EB8663BBFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estacionamento", "Estacionamento\Estacionamento.csproj", "{97C233B9-9139-438A-8B1E-B4EB8663BBFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Explorando a linguagem", "Explorando a linguagem", "{4938BF60-474A-4543-90E6-0C277F00C872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Propiedades", "Propiedades\Propiedades.csproj", "{1E169A21-ED75-4B7A-B3C4-F806FC78AB83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +105,10 @@ Global
 		{97C233B9-9139-438A-8B1E-B4EB8663BBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97C233B9-9139-438A-8B1E-B4EB8663BBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97C233B9-9139-438A-8B1E-B4EB8663BBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E169A21-ED75-4B7A-B3C4-F806FC78AB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E169A21-ED75-4B7A-B3C4-F806FC78AB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E169A21-ED75-4B7A-B3C4-F806FC78AB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E169A21-ED75-4B7A-B3C4-F806FC78AB83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +129,7 @@ Global
 		{F1CF6FB0-E2CE-4DD2-B1DB-EEEE69866ACB} = {F3EF9940-07CB-4EB1-8C0C-E40D3A100E62}
 		{D92D48B9-4F98-4A62-AD1B-010FDEE57CCD} = {F3EF9940-07CB-4EB1-8C0C-E40D3A100E62}
 		{97C233B9-9139-438A-8B1E-B4EB8663BBFD} = {F3EF9940-07CB-4EB1-8C0C-E40D3A100E62}
+		{1E169A21-ED75-4B7A-B3C4-F806FC78AB83} = {4938BF60-474A-4543-90E6-0C277F00C872}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E036F278-9E21-4A2F-8239-A1781FAFA072}
