@@ -47,15 +47,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Porcentagem", "Porcentagem\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime", "DateTime\DateTime.csproj", "{2190C3E3-CC77-4C66-A869-709A91E53364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeituraDeArquivo", "LeituraDeArquivo\LeituraDeArquivo.csproj", "{72FD20EE-0CB2-44B3-804B-A96FCFBABA60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeituraDeArquivo", "LeituraDeArquivo\LeituraDeArquivo.csproj", "{72FD20EE-0CB2-44B3-804B-A96FCFBABA60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsandoThrow", "UsandoThrow\UsandoThrow.csproj", "{5D8019E2-58CE-482D-BA38-3FBE86F5D93A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsandoThrow", "UsandoThrow\UsandoThrow.csproj", "{5D8019E2-58CE-482D-BA38-3FBE86F5D93A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fila", "Fila\Fila.csproj", "{A4386FC8-CE8F-46AB-BFF1-A3A4000E78AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fila", "Fila\Fila.csproj", "{A4386FC8-CE8F-46AB-BFF1-A3A4000E78AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilha", "Pilha\Pilha.csproj", "{36F170D4-A45A-484D-9B63-9D25A076137A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pilha", "Pilha\Pilha.csproj", "{36F170D4-A45A-484D-9B63-9D25A076137A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsandoDictionary", "UsandoDictionary\UsandoDictionary.csproj", "{2D2905E0-FDBD-4DB4-9AC5-645CB1213584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsandoDictionary", "UsandoDictionary\UsandoDictionary.csproj", "{2D2905E0-FDBD-4DB4-9AC5-645CB1213584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuplas", "Tuplas\Tuplas.csproj", "{0FFD2002-6E9F-4B65-A27A-B61657CFA05B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -163,6 +165,10 @@ Global
 		{2D2905E0-FDBD-4DB4-9AC5-645CB1213584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D2905E0-FDBD-4DB4-9AC5-645CB1213584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D2905E0-FDBD-4DB4-9AC5-645CB1213584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFD2002-6E9F-4B65-A27A-B61657CFA05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFD2002-6E9F-4B65-A27A-B61657CFA05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFD2002-6E9F-4B65-A27A-B61657CFA05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFD2002-6E9F-4B65-A27A-B61657CFA05B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,6 +199,7 @@ Global
 		{A4386FC8-CE8F-46AB-BFF1-A3A4000E78AD} = {4938BF60-474A-4543-90E6-0C277F00C872}
 		{36F170D4-A45A-484D-9B63-9D25A076137A} = {4938BF60-474A-4543-90E6-0C277F00C872}
 		{2D2905E0-FDBD-4DB4-9AC5-645CB1213584} = {4938BF60-474A-4543-90E6-0C277F00C872}
+		{0FFD2002-6E9F-4B65-A27A-B61657CFA05B} = {4938BF60-474A-4543-90E6-0C277F00C872}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E036F278-9E21-4A2F-8239-A1781FAFA072}
