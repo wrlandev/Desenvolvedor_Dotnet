@@ -1,11 +1,10 @@
-﻿using System.ComponentModel.Design;
-using Tuplas.Models;
+﻿using Tuplas.Models;
 
 (int Id, string Nome, string Sobrenome) tupla = (1, "Wrlan", "Silva");
 Console.WriteLine(tupla);
 
 LeituraDeArquivo arquivo = new();
-var (sucesso, linhas, quantidadeDeLinhas) = arquivo.LerArquivo(
+var (sucesso, linhas, _) = arquivo.LerArquivo(
     "C:\\" +
     "Dev\\" +
     "Dotnet\\" +
@@ -18,7 +17,7 @@ var (sucesso, linhas, quantidadeDeLinhas) = arquivo.LerArquivo(
 
 if(sucesso)
 {
-    Console.WriteLine("Quantidade de linhas: " + quantidadeDeLinhas);
+    //Console.WriteLine("Quantidade de linhas: " + quantidadeDeLinhas);
     foreach (string linha in linhas)
     {
         Console.WriteLine(linha);
