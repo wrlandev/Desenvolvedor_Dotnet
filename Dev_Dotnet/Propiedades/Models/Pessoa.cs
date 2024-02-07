@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Propiedades.Models
+﻿namespace Propiedades.Models
 {
-    internal class Pessoa
+    public class Pessoa
     {
         public Pessoa()
         {
-            
+
         }
         public Pessoa(string nome, string sobrenome)
         {
@@ -21,19 +15,19 @@ namespace Propiedades.Models
         private string _nome;
         private int _idade;
 
-        public string Nome 
+        public string Nome
         {
             get => _nome.ToUpper();
-            
+
             set
             {
-                if( value == "")
+                if (value == "")
                 {
                     throw new ArgumentException("O nome não pode ser vazio");
                 }
 
                 _nome = value;
-            } 
+            }
         }
         public string Sobrenome { get; set; }
         public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
@@ -43,7 +37,7 @@ namespace Propiedades.Models
 
             set
             {
-                if(value < 0)
+                if (value < 0)
                 {
                     throw new ArgumentException("A idade não pode ser menor que zero");
                 }
