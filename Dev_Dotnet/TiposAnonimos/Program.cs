@@ -1,0 +1,1 @@
+﻿var tipoAnonimo = new { Nome = "Wrlan", Sobrenome = "Silva", Idade = 20 };
