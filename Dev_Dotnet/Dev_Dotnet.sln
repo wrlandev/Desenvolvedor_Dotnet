@@ -57,25 +57,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pilha", "Pilha\Pilha.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsandoDictionary", "UsandoDictionary\UsandoDictionary.csproj", "{2D2905E0-FDBD-4DB4-9AC5-645CB1213584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuplas", "Tuplas\Tuplas.csproj", "{0FFD2002-6E9F-4B65-A27A-B61657CFA05B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuplas", "Tuplas\Tuplas.csproj", "{0FFD2002-6E9F-4B65-A27A-B61657CFA05B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desconstrutor", "Desconstrutor\Desconstrutor.csproj", "{7672F49A-84A6-4423-B996-CC6309AFFA7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desconstrutor", "Desconstrutor\Desconstrutor.csproj", "{7672F49A-84A6-4423-B996-CC6309AFFA7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfTernario", "IfTernario\IfTernario.csproj", "{9FD2CDEB-CD08-4729-9513-B449BB1138DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfTernario", "IfTernario\IfTernario.csproj", "{9FD2CDEB-CD08-4729-9513-B449BB1138DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serializacao", "Serializacao\Serializacao.csproj", "{CA014CD9-69F8-4F37-8667-BE336B5F13D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serializacao", "Serializacao\Serializacao.csproj", "{CA014CD9-69F8-4F37-8667-BE336B5F13D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deserializacao", "Deserializacao\Deserializacao.csproj", "{23100387-56F8-4861-8E01-EA7B728206E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deserializacao", "Deserializacao\Deserializacao.csproj", "{23100387-56F8-4861-8E01-EA7B728206E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposNulos", "TiposNulos\TiposNulos.csproj", "{D547AF2E-EB97-4363-8A36-F5FB1CBDCA98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposNulos", "TiposNulos\TiposNulos.csproj", "{D547AF2E-EB97-4363-8A36-F5FB1CBDCA98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposAnonimos", "TiposAnonimos\TiposAnonimos.csproj", "{6CF6D55F-31EE-4CA0-B946-F763CF82513F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposAnonimos", "TiposAnonimos\TiposAnonimos.csproj", "{6CF6D55F-31EE-4CA0-B946-F763CF82513F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoDinamico", "TipoDinamico\TipoDinamico.csproj", "{6B87C214-B4A3-49E3-B1D2-1FED1C7F5BAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoDinamico", "TipoDinamico\TipoDinamico.csproj", "{6B87C214-B4A3-49E3-B1D2-1FED1C7F5BAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaseGenerica", "ClaseGenerica\ClaseGenerica.csproj", "{C7E4F1DF-9DD9-4CF4-BDF5-B14ADCF7416C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaseGenerica", "ClaseGenerica\ClaseGenerica.csproj", "{C7E4F1DF-9DD9-4CF4-BDF5-B14ADCF7416C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodoDeExtensao", "MetodoDeExtensao\MetodoDeExtensao.csproj", "{34863192-8D64-48B3-9809-9EF46839B07A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodoDeExtensao", "MetodoDeExtensao\MetodoDeExtensao.csproj", "{34863192-8D64-48B3-9809-9EF46839B07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDeHospedagem", "SistemaDeHospedagem\SistemaDeHospedagem.csproj", "{AE7D1B10-FCA4-4AEE-987A-ADCAD506B036}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,6 +225,10 @@ Global
 		{34863192-8D64-48B3-9809-9EF46839B07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34863192-8D64-48B3-9809-9EF46839B07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34863192-8D64-48B3-9809-9EF46839B07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7D1B10-FCA4-4AEE-987A-ADCAD506B036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7D1B10-FCA4-4AEE-987A-ADCAD506B036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7D1B10-FCA4-4AEE-987A-ADCAD506B036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7D1B10-FCA4-4AEE-987A-ADCAD506B036}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -263,6 +269,7 @@ Global
 		{6B87C214-B4A3-49E3-B1D2-1FED1C7F5BAE} = {4938BF60-474A-4543-90E6-0C277F00C872}
 		{C7E4F1DF-9DD9-4CF4-BDF5-B14ADCF7416C} = {4938BF60-474A-4543-90E6-0C277F00C872}
 		{34863192-8D64-48B3-9809-9EF46839B07A} = {4938BF60-474A-4543-90E6-0C277F00C872}
+		{AE7D1B10-FCA4-4AEE-987A-ADCAD506B036} = {4938BF60-474A-4543-90E6-0C277F00C872}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E036F278-9E21-4A2F-8239-A1781FAFA072}
