@@ -73,7 +73,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposAnonimos", "TiposAnoni
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoDinamico", "TipoDinamico\TipoDinamico.csproj", "{6B87C214-B4A3-49E3-B1D2-1FED1C7F5BAE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaseGenerica", "ClaseGenerica\ClaseGenerica.csproj", "{C7E4F1DF-9DD9-4CF4-BDF5-B14ADCF7416C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasseGenerica", "ClaseGenerica\ClasseGenerica.csproj", "{C7E4F1DF-9DD9-4CF4-BDF5-B14ADCF7416C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodoDeExtensao", "MetodoDeExtensao\MetodoDeExtensao.csproj", "{34863192-8D64-48B3-9809-9EF46839B07A}"
 EndProject

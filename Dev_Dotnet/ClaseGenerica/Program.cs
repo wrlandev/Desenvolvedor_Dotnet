@@ -1,4 +1,4 @@
-﻿using ClaseGenerica.Models;
+﻿using ClasseGenerica.Models;
 
 MeuArray<int> arrayInteiro = new();
 arrayInteiro.AddElemento(30);

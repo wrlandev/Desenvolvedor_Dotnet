@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClaseGenerica.Models
+﻿namespace ClasseGenerica.Models
 {
     internal class MeuArray<T>
     {
@@ -14,7 +8,7 @@ namespace ClaseGenerica.Models
 
         public void AddElemento(T elemento)
         {
-            if(contador + 1 < 11)
+            if (contador + 1 < 11)
             {
                 array[contador] = elemento;
             }
