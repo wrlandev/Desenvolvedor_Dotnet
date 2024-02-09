@@ -1,11 +1,7 @@
-﻿namespace ConstrutorPorHeranca.Models
+﻿namespace MetodoSelado.Models
 {
     internal class Aluno : Pessoa
     {
-        public Aluno(string nome) : base(nome)
-        {
-        }
-
         public double Nota { get; set; }
 
         public override void Apresensar()

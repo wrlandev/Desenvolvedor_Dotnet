@@ -1,10 +1,10 @@
-﻿namespace ClasseSelada.Models
+﻿namespace MetodoSelado.Models
 {
-    internal sealed class Professor : Pessoa
+    internal class Professor : Pessoa
     {
         public decimal Salario { get; set; }
 
-        public override void Apresensar()
+        public sealed override void Apresensar()
         {
             Console.WriteLine($"Olá meu nome e {Nome} eu tenho {Idade} anos e meu salario e de {Salario}");
         }

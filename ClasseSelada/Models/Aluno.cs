@@ -1,4 +1,4 @@
-﻿namespace Polimorfismo.Models
+﻿namespace ClasseSelada.Models
 {
     internal class Aluno : Pessoa
     {
