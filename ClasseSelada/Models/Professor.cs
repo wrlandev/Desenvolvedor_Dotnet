@@ -1,11 +1,9 @@
-﻿namespace ConstrutorPorHeranca.Models
-{
-    internal class Professor : Pessoa
-    {
-        public Professor(string nome) : base(nome)
-        {
-        }
+﻿using ClasseSelada.Models;
 
+namespace Polimorfismo.Models
+{
+    internal sealed class Professor : Pessoa
+    {
         public decimal Salario { get; set; }
 
         public override void Apresensar()
