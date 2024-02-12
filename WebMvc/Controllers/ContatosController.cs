@@ -19,7 +19,6 @@ namespace WebMvc.Controllers
             _context = context;
         }
 
-        // GET: Contatos
         public async Task<IActionResult> Index()
         {
               return _context.ContatosMvc != null ? 
@@ -27,7 +26,6 @@ namespace WebMvc.Controllers
                           Problem("Entity set 'AppDbContext.ContatosMvc'  is null.");
         }
 
-        // GET: Contatos/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.ContatosMvc == null)
@@ -45,15 +43,11 @@ namespace WebMvc.Controllers
             return View(contatoModel);
         }
 
-        // GET: Contatos/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Contatos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Telefone,Ativo")] ContatoModel contatoModel)
@@ -67,7 +61,6 @@ namespace WebMvc.Controllers
             return View(contatoModel);
         }
 
-        // GET: Contatos/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.ContatosMvc == null)
@@ -83,9 +76,6 @@ namespace WebMvc.Controllers
             return View(contatoModel);
         }
 
-        // POST: Contatos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Telefone,Ativo")] ContatoModel contatoModel)
@@ -118,7 +108,6 @@ namespace WebMvc.Controllers
             return View(contatoModel);
         }
 
-        // GET: Contatos/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.ContatosMvc == null)
@@ -136,7 +125,6 @@ namespace WebMvc.Controllers
             return View(contatoModel);
         }
 
-        // POST: Contatos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
